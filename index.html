@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <title>Jogo de azar!</title>
+</head>
+
+<body>
+    <!-- Escreva seu código aqui -->
+    <div class="inicio">
+        <h1>Magic 8-ball</h1>
+        <img src="./src/img/bola toyStory.jpg" alt="bola" srcset="">
+
+    </div>
+
+    <div class="pergunta">
+        <p id="textoInicial">Me faça uma pergunta!</p>
+
+        <textarea name="texto" id="textarea" cols="30" rows="10" placeholder="Digite aqui"></textarea>
+
+        <button id="btn">Enviar</button>
+
+    </div>
+
+    <div class="resposta">
+        <p> <span id="texto-resposta"></span></p>
+    </div>
+
+    <div id="divFinal">
+        <button id="btn-reset"> Tentar novamente!</button>
+    </div>
+    <script src="./src/scriptPoo.js"></script>
+</body>
+
+</html>
